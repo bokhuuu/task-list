@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'The List of tasks !')
+@section('title', 'The list of tasks !')
 
 @section('content')
     @forelse ($tasks as $task)
